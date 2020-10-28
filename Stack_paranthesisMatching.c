@@ -43,8 +43,6 @@ int main()
 	int len,i=0;
 	printf("enter the expression\n");
 	scanf("%s",exp);
-	if(strcmp(exp,"exit")==0)
-		exit(0);
 	len=strlen(exp);
 	st.size=len-1;
 	st.s=(char*)malloc(st.size*sizeof(char));
